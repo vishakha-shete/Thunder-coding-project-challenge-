@@ -44,3 +44,75 @@
     height: auto;
 }
 
+.content{
+    position: absolute;
+    left: 43%;
+    top: 20px;
+}
+
+.content h1{
+    color: #000;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.content h4{
+    color: #333;
+    line-height: 0.7;
+    font-weight: 500;
+}
+
+.content p{
+    margin-top: 10px;
+    color: #e63946;
+    font-size: 30px;
+}
+
+.content p span{
+    font-size: 55px;
+    font-weight: 600;
+}
+
+.content h3{
+    margin-top: 20px;
+    font-size:18px;
+    color: #777;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.apples{
+    margin: 10px 0;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+}
+
+.apples img{
+    padding: 5px;
+    width: 50px;
+    border: 2px solid #202020;
+    border-radius: 15px;
+}
+
+ul{
+    margin-bottom: 30px;
+}
+
+.btn{
+    text-decoration: none;
+    color: #fff;
+    background-color: #e63946;
+    padding: 15px 40px;
+    transition: 0.4s;
+}
+
+.btn:hover{
+    border: 2px solid #e63946;
+    background-color: #fff;
+    color: #e63946;
+}
