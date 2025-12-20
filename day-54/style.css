@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    background: linear-gradient(to right, #d6acb5, #a058a7);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    width: 90vw;
+    height: 80vh;
+    margin: auto;
+    backdrop-filter: blur(10px) saturate(132%);
+    background-color: linear-gradient(rgb(165, 42, 63),rgb(231, 94, 208));
+    border-radius: 20px;
+    padding: 30px;
+    border: 1px solid rgb(255, 223, 228);
+    box-shadow: 10px 10px 10px rgba(238, 29, 99, 0.842);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navlinks ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.navlinks ul li {
+    font-size: 25px;
+    color: #070606;
+}
+
+.navlinks ul li a {
+    color: #050505;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+    transition: 0.4s;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.navlinks ul li a:hover {
+    background:linear-gradient(rgb(118, 117, 223),white);
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px rgba(214, 95, 135, 0.842);
+}
+
+.search ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 30px;
+}
+
+.search ul li a {
+    color: #131212;
+    font-size: 25px;
+    text-decoration: none;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+}
+
+.section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: #0c0b0b;
+}
+
+.old-model {
+    position: absolute;
+    top: 5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #47225a;
+}
+
+.old-model ion-icon {
+    font-size: 20px;
+}
+
+.old-model h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.left {
+    position: absolute;
+    top: 15%;
+}
+
+.left h2 {
+    font-size: 28px;
+    font-weight: 200;
+    text-transform: capitalize;
+}
+
+.left h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1;
+}
+
+.image {
+    position: absolute;
+    top: 21%;
+    left: 24%;
+    animation: anim 2s linear infinite;
+}
+
+@keyframes anim {
+    0% {
+        top: 21%;
+        left: 24%;
+    }
+
+    50% {
+        top: 20%;
+        left: 25%;
+    }
+
+    100% {
+        top: 22%;
+        left: 25%;
+    }
+}
+
+.image img {
+    width: 110%;
+}
+
+.right {
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+}
+
+.right h2 {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.right h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    line-height: 1;
+}
+
+.new-model {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4e2c75;
+}
+
+.new-model ion-icon {
+    font-size: 30px;
+}
+
+.new-model h2 {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn {
+    position: absolute;
+    margin-top: 10px;
+    right: -1.70%;
+    padding: 10px 20px;
+    background: #8eeb82;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 50px;
+    color: #0a0909;
+    transition: 0.4s;
+    border: 1px solid #55ac76;
+    box-shadow: 10px 4px 10px green;
+}
+
+.social {
+    position: absolute;
+    top: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social ion-icon:hover {
+    color: #6a82fb;
+}
+
+.social ion-icon {
+    font-size: 35px;
+    cursor: pointer;
+    transition: 0.4s;
+}
